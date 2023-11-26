@@ -36,6 +36,7 @@ D flip-flop operates with only positive clock transitions or negative clock tran
  
 This circuit has single input D and two outputs Qtt & Qtt’. The operation of D flip-flop is similar to D Latch. But, this flip-flop affects the outputs only when positive transition of the clock signal is applied instead of active enable.
 The following table shows the state table of D flip-flop.
+
 ![image](https://user-images.githubusercontent.com/36288975/167908342-e03f0cbb-5958-43bb-b74a-5e3ec2341675.png)
 
 ![image](https://user-images.githubusercontent.com/36288975/167910325-aeef0739-0a54-40e2-bebd-6f5fa0cad10e.png)
@@ -101,40 +102,91 @@ From the above characteristic table, we can directly write the next state equati
 Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
-### Procedure
-/* write all the steps invloved */
+## Procedure:
+
+Step:1
+Open Quartus II and select new project and choose the file location.
+
+Step:2
+Module Declaration. Module should have the file name.
+
+Step:3
+Declare Inputs and outputs.
+
+Step:4
+Use assign declaration and wire to define the functionality of logic circuits.
+
+Step:5
+End the program with endmodule.
+
+Step:6
+Run the program and choose RTL viewer to get RTL realization.
 
 
 
-### PROGRAM 
-/*
-Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+## PROGRAM: 
+Developed By: MOHAMMED SAAJID S
+
+Register No: 23012657
+
+### D FLIPFLOP:
+
+![Exp5 dfp code](https://github.com/Confusion7/Experiment--05-Implementation-of-flipflops-using-verilog/assets/141727149/dac628cf-9c4e-4451-a45e-760a72fece21)
+
+### T FLIPFLOP:
+
+![Exp5 tfp code](https://github.com/Confusion7/Experiment--05-Implementation-of-flipflops-using-verilog/assets/141727149/84b62cc3-ea2d-4f0d-9ebf-45e88922cf5a)
+
+### JK FLIPFLOP:
+
+![Exp5 jkfp code](https://github.com/Confusion7/Experiment--05-Implementation-of-flipflops-using-verilog/assets/141727149/7edc1623-e314-4a55-99b3-b6a76a82ec55)
+
+### SR FLIPFLOP:
+
+![Exp5 srfp code](https://github.com/Confusion7/Experiment--05-Implementation-of-flipflops-using-verilog/assets/141727149/d6cfe7cc-7e27-42fe-8b97-87eca2f8f09d)
+
+
+## RTL LOGIC FOR FLIPFLOPS 
+
+### D FLIPFLOP:
+
+![Exp5 dfp RTL diagram](https://github.com/Confusion7/Experiment--05-Implementation-of-flipflops-using-verilog/assets/141727149/7e317dd3-ddd6-428b-b95b-bc5fd54d28c2)
+
+### T FLIPFLOP:
+
+![Exp5 tfp RTL diagram](https://github.com/Confusion7/Experiment--05-Implementation-of-flipflops-using-verilog/assets/141727149/234803e2-f001-4f25-aef1-a1ba1493f6d4)
+
+### JK FLIPFLOP:
+
+![Exp5 jkfp RTL diagram](https://github.com/Confusion7/Experiment--05-Implementation-of-flipflops-using-verilog/assets/141727149/bda7811a-0168-441c-922e-cf28cd2b5d31)
+
+### SR FLIPFLOP:
+
+![Exp5 srfp RTL diagram](https://github.com/Confusion7/Experiment--05-Implementation-of-flipflops-using-verilog/assets/141727149/10d9a1df-e36e-4a9b-af51-90f7405ce717)
 
 
 
+## TIMING DIGRAMS FOR FLIP FLOPS:
+
+### D FLIPFLOP:
+
+![WhatsApp Image 2023-11-26 at 11 49 08 AM](https://github.com/Confusion7/Experiment--05-Implementation-of-flipflops-using-verilog/assets/141727149/fa33c513-090f-48d6-8c8c-cb226941ee3d)
+
+### T FLIPFLOP:
+
+![WhatsApp Image 2023-11-26 at 11 49 08 AM (1)](https://github.com/Confusion7/Experiment--05-Implementation-of-flipflops-using-verilog/assets/141727149/b4534601-1e3a-4541-9c32-e32d3947de6d)
 
 
+### JK FLIPFLOP:
 
-### RTL LOGIC FOR FLIPFLOPS 
-
-
-
+![WhatsApp Image 2023-11-26 at 11 49 08 AM (2)](https://github.com/Confusion7/Experiment--05-Implementation-of-flipflops-using-verilog/assets/141727149/b8ed2e69-1ebe-47d5-871b-bb6968fb352d)
 
 
+### SR FLIPFLOP:
+
+![WhatsApp Image 2023-11-26 at 11 49 07 AM (3)](https://github.com/Confusion7/Experiment--05-Implementation-of-flipflops-using-verilog/assets/141727149/b8704545-9c95-4b0b-95af-2ef771f27be0)
 
 
+## RESULTS :
 
-
-### TIMING DIGRAMS FOR FLIP FLOPS 
-
-
-
-
-
-
-
-
-### RESULTS 
+Thus, the program for flipflops is implemented and its functional table is successfully verified in quartus using Verilog programming.
