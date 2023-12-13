@@ -125,9 +125,10 @@ Run the program and choose RTL viewer to get RTL realization.
 
 
 ## PROGRAM: 
+
 Developed By: MOHAMMED SAAJID S
 
-Register No: 23012657
+Register No: 212223240093
 
 ### D FLIPFLOP:
 
